@@ -7,7 +7,10 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
+
+// application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
+// application/json
 app.use(bodyParser.json());
 
 // Database 
