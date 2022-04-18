@@ -2,9 +2,9 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const { User } = require('./models/User');
 const mongoose = require('mongoose');
-require('dotenv').config();
 
 const app = express();
+const config = require('./config/key');
 
 // Middleware
 
@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Database 
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(config.MONGO_URI, {
   useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => console.log('MongoDB Connected...'))
   .catch (err => console.log(err))
@@ -31,4 +31,4 @@ app.post('/register', (req, res) => {
   })
 })
 
-app.listen(process.env.SERVER_PORT, () => console.log(`Server Listening on port ${process.env.SERVER_PORT}`))
+app.listen(config.SERVER_PORT, () => console.log(`Server Listening on port ${config.SERVER_PORT}`))
