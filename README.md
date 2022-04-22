@@ -6,7 +6,7 @@ R - react
 N - node
 ```
 
-## You should make dev.js file inside of `config` folder like this:
+## You should make dev.js file inside of `backend/config` folder like this:
 ```
 module.exports = {
   MONGO_URI: '[YOUR-MONGO-CONNECTION-URI]',
