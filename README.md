@@ -1,8 +1,8 @@
 # MERN-BOILER_PLATE
 ```
-M - mongodb\
-E - express\
-R - react\
+M - mongodb
+E - express
+R - react
 N - node
 ```
 

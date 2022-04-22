@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T01:08:54.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="pO107SqgXzAmuPTqhR-o" version="17.4.5" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="946" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldLvtSVQ3PvWPdji79Cw-2" target="ldLvtSVQ3PvWPdji79Cw-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-1" value="로그인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldLvtSVQ3PvWPdji79Cw-4" target="ldLvtSVQ3PvWPdji79Cw-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-2" value="쿠키에 토큰 세팅" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-710" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldLvtSVQ3PvWPdji79Cw-6" target="ldLvtSVQ3PvWPdji79Cw-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-4" value="토큰 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-820" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldLvtSVQ3PvWPdji79Cw-8" target="ldLvtSVQ3PvWPdji79Cw-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-6" value="아이디/비밀번호 &lt;br&gt;일치여부" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-930" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ldLvtSVQ3PvWPdji79Cw-8" value="로그인 요청" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-1040" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+        <mxGraphModel dx="911" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldLvtSVQ3PvWPdji79Cw-2" target="ldLvtSVQ3PvWPdji79Cw-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-1" value="로그인" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="-600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldLvtSVQ3PvWPdji79Cw-4" target="ldLvtSVQ3PvWPdji79Cw-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-2" value="쿠키에 토큰 세팅&lt;br&gt;(key: x_auth)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="-710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldLvtSVQ3PvWPdji79Cw-6" target="ldLvtSVQ3PvWPdji79Cw-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-4" value="토큰 생성" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="-820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldLvtSVQ3PvWPdji79Cw-8" target="ldLvtSVQ3PvWPdji79Cw-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-6" value="아이디/비밀번호 &lt;br&gt;일치여부" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="-930" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldLvtSVQ3PvWPdji79Cw-8" value="로그인 요청" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="-1040" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
