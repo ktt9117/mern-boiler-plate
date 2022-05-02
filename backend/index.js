@@ -64,10 +64,7 @@ app.post("/api/users/login", (req, res) => {
         if (err) return res.status(400).send(err);
         // 토큰을 저장한다. // 쿠키 or LocalStorage or etc...
 
-        res
-          .cookie("x_auth", user.token)
-          .status(200)
-          .json({ loginSuccess: true, userId: user._id });
+        res.cookie("x_auth", user.token).status(200).json({ loginSuccess: true, userId: user._id });
       });
     });
   });
@@ -93,6 +90,4 @@ app.get("/api/users/logout", auth, (req, res) => {
   });
 });
 
-app.listen(config.SERVER_PORT, () =>
-  console.log(`Server Listening on port ${config.SERVER_PORT}`)
-);
+app.listen(config.SERVER_PORT, () => console.log(`Server Listening on port ${config.SERVER_PORT}`));
