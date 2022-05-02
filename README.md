@@ -14,6 +14,31 @@ module.exports = {
 }
 ```
 
+## Getting Started
+
+### Installation
+> backend
+> ```bash
+> npm install
+> or 
+> yarn 
+> ```
+> 
+> Frontend  
+> ```
+> cd frontend  
+> npm install  
+> or  
+> yarn  
+> ```
+
+### Run Application
+> ```
+> npm run dev
+> or  
+> yarn dev
+> ```
+
 ## Recommend VS Code extensions
 - ES7+ React/Redux/React-Native snippets
 - Prettier - Code formatter
